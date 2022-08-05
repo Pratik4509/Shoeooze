@@ -1,0 +1,57 @@
+.brand-head {
+    width: 85%;
+    padding: 25px;
+    display: flex;
+    height: 50px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+}
+
+.logo {
+    width: 70%;
+    float: left;
+}
+
+.brand-head img {
+    width: 25%;
+    height: 100%;
+}
+
+
+/* p {
+    width: 87%;
+} */
+
+.brand-head p {
+    width: 90%;
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #252B42;
+    text-transform: uppercase;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 20%;
+    flex: 0 0 27%;
+    padding: 20px;
+    /* height: 200px; */
+    overflow: hidden;
+}
+
+.card .img-container {
+    height: 320px;
+}
+
+.card img {
+    object-fit: cover;
+}

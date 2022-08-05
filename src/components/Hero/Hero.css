@@ -1,0 +1,123 @@
+.hero-container {
+    display: flex;
+    width: 85.5%;
+    margin: 60px auto 0;
+    /* animation-duration: 2s;
+    animation-delay: 1s; */
+    /* don't forget to set a duration! */
+}
+
+.hero-container .hero-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-container .hero-text p {
+    margin: 10px 0;
+}
+
+.hero-container .hero-text .one {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #2A7CC7;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.hero-container .hero-text .two {
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: 1px;
+    color: #252B42;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.hero-container .hero-text .three {
+    font-size: 16px;
+    width: inherit;
+    /* font-weight: bold; */
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #252B42;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.hero-container .hero-text button {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.hero-container img {
+    width: 50%;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.arrow-1 {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    z-index: 80;
+    bottom: 25px;
+    position: absolute;
+    border-width: 0 0.25em 0.25em 0;
+    border-style: solid;
+    border-color: #23A6F0;
+    animation: scrolldown 1.2s ease-in-out infinite 0.15s;
+    /* animation-duration: 2s;
+    animation-delay: 1s; */
+}
+
+.arrow-2 {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    z-index: 80;
+    bottom: 40px;
+    position: absolute;
+    border-width: 0 0.25em 0.25em 0;
+    border-style: solid;
+    border-color: #23A6F0;
+    animation: scrolldown 1.2s ease-in-out infinite;
+    /* animation-duration: 2s;
+    animation-delay: 1s; */
+}
+
+.arrow-1,
+.arrow-2 {
+    left: 50%;
+    transform: translateY(0%) rotate(45deg);
+    opacity: 0;
+}
+
+@keyframes scrolldown {
+    0% {
+        transform: translateY(20%) rotate(45deg);
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(0%) rotate(45deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translateY(20%) rotate(45deg);
+        opacity: 0.7;
+    }
+}

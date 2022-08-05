@@ -1,0 +1,42 @@
+.App-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.App-header h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.App-header h3 a {
+    text-decoration: none;
+    color: #252B42;
+}
+
+.App-header .links {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-size: 14px;
+    font-weight: regular;
+}
+
+.App-header .login {
+    font-size: 14px;
+    font-weight: regular;
+}
+
+.App-header .links a,
+.App-header .login a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #737373;
+}
+
+.App-header .links li,
+.App-header .login li {
+    list-style: none;
+}
